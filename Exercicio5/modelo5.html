@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" type="text/css" href="./estilo/style.css">
+</head>
+<body onload="load()">
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <section>
+        <div>
+            Número(entre 1 e 100): 
+            <input type="number" name="num" id="num">
+            <input type="button" value="Adicionar" onclick="adiciona()"></br>
+            <select name="listaNum" id="listaNum" size="10"></select></br>
+            <input type="button" value="Finalizar" onclick="finaliza()">
+        </div>
+        <div id="resultado">
+
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy;CursoemVídeo</p>
+    </footer>
+    <script src="./codigo/script.js"></script>
+</body>
+</html>
